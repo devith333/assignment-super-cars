@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff4d00;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff4d00;
+}
+
+.about-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    padding: 40px;
+  }
+
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0d6efd;
+    text-align: center;
+  }
+
+  .about-container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .about-container {
+      padding: 20px;
+    }
+
+    .about-container h1 {
+      font-size: 2rem;
+    }
+
+    .about-container p {
+      font-size: 1rem;
+    }
+  }
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff4d00;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e04500;
+    cursor: pointer;
+}
+
+.cars-section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.section-title p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.car-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.car-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.car-card h3 {
+    padding: 1.5rem 1.5rem 0.5rem;
+    font-size: 1.3rem;
+}
+
+.car-card p {
+    padding: 0 1.5rem;
+    color: #ff4d00;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.car-card .btn {
+    display: block;
+    margin: 0 1.5rem 1.5rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+footer p {
+    opacity: 0.8;
+}
