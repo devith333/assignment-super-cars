@@ -81,6 +81,7 @@ nav {
   }
 
   .about-container h1 {
+    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #0d6efd;
