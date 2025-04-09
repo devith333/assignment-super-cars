@@ -212,6 +212,71 @@ nav {
     text-align: center;
 }
 
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .contact-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    margin: 50px auto;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ff3b3f;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ff3b3f;
+  }
+  
+  .map-container {
+    margin-top: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  }
+
 footer {
     background-color: #1a1a1a;
     color: white;
